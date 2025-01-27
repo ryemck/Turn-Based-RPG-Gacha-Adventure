@@ -1,5 +1,6 @@
 switch(global.phase){
     case gamephase.init:
+        startingattack = obj_Player_Battle.attack;
         if(global.playerSpeed >= objectID.speedA){
             global.phase = gamephase.playerTurn;
         }else if (objectID.speedA > global.playerSpeed){
@@ -22,6 +23,8 @@ switch(global.phase){
         scrpt_SkeletonMageSkills() ;  
     }else if (global.enemy1name == "obj_OrcWarrior"){
             scrpt_OrcWarriorSkills() ;  
+        }else{
+            scrpt_OrcWarriorSkills() ; 
         }
     
     //if player has no health, go to lose phase
@@ -51,22 +54,30 @@ switch(global.phase){
         
         break;
     case gamephase.win:
-        global.playerExp = global.playerExp + 50;
-        //increase exp
-        show_message("You win! You gain 50 exp!");
+        //give exp reward
+        global.playerExp = global.playerExp + objectID.exp_provided;
+        show_message("You win! You gain " + string(objectID.exp_provided) + "exp!");
         //if exp is more than required, then level up
         if(global.playerExp >= global.playerExpRequired){
             global.playerExp = global.playerExp - global.playerExpRequired;
-            global.playerLevel = global.playerLevel + 1;
+            //increase next exp requirement
+            global.playerExpRequired = global.playerExpRequired * 1.2
+            //give bonus stats
+            global.playerLevel++;
             global.playerHP_Max = global.playerHP_Max + 2;
-            global.playerAttack = global.playerAttack + 1;
-            show_message("Level up! You gained 1 attack & 2 max health! :D");
+            global.playerAP++;
+            show_message("Level up! You gained 1 AP & 2 max health! :D");
             
         }
+    //clean up
+    global.playerAttack = startingattack;
         room_goto(rm_Main);
     
         break;
     case gamephase.lose:
+        
+    //clean up
+        global.playerAttack = startingattack;
         instance_destroy();    
         show_message("You lose, noob!");
         room_goto(rm_Main);

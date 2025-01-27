@@ -22,5 +22,3 @@ if (_hor !=0 or _ver !=0) {
     
 }
 
-//set global variable to pass on to battle
-//global.attackPowerUp = obj_Player_Map.attack_PowerUp;

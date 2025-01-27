@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_OrcWarrior_Battle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_OrcWarrior_Battle",
   "overriddenProperties":[
@@ -13,7 +11,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"speedA","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"attack","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"eName","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Orc Warrior",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"exp_provided","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"exp_provided","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
   ],
   "parent":{
     "name":"Enemy",

@@ -1,0 +1,32 @@
+Converting GML script: C:\Users\ryemc\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\mvc\1473542130_Game_Pause_72919fa1\mvc\scripts\game_pause\game_pause.gml
+Converted description /// @description game_pause();
+
+Converting GML script: C:\Users\ryemc\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\mvc\1473542130_Game_Pause_72919fa1\mvc\objects\PAUSE\Create_0.gml
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: C:\Users\ryemc\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\mvc\1473542130_Game_Pause_72919fa1\mvc\objects\PAUSE\Draw_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Added compatibility script 'background\background_create_from_surface.gml'
+Added compatibility script 'background\background_delete.gml'
+Added compatibility script 'background\draw_background.gml'
+Added compatibility script 'background\draw_background_stretched.gml'
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'background\__init_background.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

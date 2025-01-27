@@ -3,15 +3,20 @@ function scrpt_DoDamage(){
     //get player attack stat
     var playerDamage = global.playerAttack;
     //get enemy armor stat
-    var enemyArmor = global.enemy1id.armor;
+    var enemyArmor = objectID.armor;
     //get enemy passive
-    var enemyPassive = global.enemy1id.passive;
+    var enemyPassive = objectID.passive;
     //reduce damage by enemy armor
-    var reduceDamage = playerDamage / enemyArmor;
+    if(enemyArmor > playerDamage){
+    var reduceDamage = playerDamage / 2;
+    }else if (enemyArmor <= playerDamage){
+        var reduceDamage = playerDamage * 0.8;
+    }else{
+        reduceDamage = 0;
+    }
     // calculate playerdamage minus the reduced damage for total damage
     var damageDealt = playerDamage - reduceDamage;
     //apply passives
-    
     if(attacktype == "ranged"){
             damageDealt = damageDealt * 1.5;
         }
@@ -71,11 +76,24 @@ function scrpt_calcDamage(){
         //get player passive
         playerPassive = global.playerPassive;
     
+    if(playerArmor > npcDamage){
+        var reduceDamage = npcDamage / 2;
+        }else if (playerArmor <= npcDamage){
+            var reduceDamage = npcDamage * 0.8;
+        }else{
+            reduceDamage = 0;
+        }
+    
+    //reduce damage by player armor
+    var reduceDamage = npcDamage / playerArmor;
+    // calculate npc damage minus the reduced damage for total damage
+    damageDealt = npcDamage - reduceDamage;
+    
 }
 
 
 function scrpt_SkeletonMageSkills(){
-    scrpt_calcDamage();
+
     scrpt_skillRoll();
     
     
@@ -85,10 +103,7 @@ function scrpt_SkeletonMageSkills(){
         break;
         
         case npcAttack.skill1 :
-            //reduce damage by player armor
-            var reduceDamage = npcDamage / playerArmor;
-            // calculate npc damage minus the reduced damage for total damage
-            var damageDealt = npcDamage - reduceDamage;
+            scrpt_calcDamage();
             
             show_message(string(npcName) + " attacks you for " + string(damageDealt) + " damage!");
             global.playerHP_Current = global.playerHP_Current - damageDealt;   

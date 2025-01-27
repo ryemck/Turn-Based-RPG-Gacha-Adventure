@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_Mario_Battle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_Mario_Battle",
   "overriddenProperties":[
@@ -12,6 +10,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"armor","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"speedA","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"exp_provided","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"35",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"eName","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Mario",},
   ],
   "parent":{
     "name":"Enemy",

@@ -6,3 +6,5 @@ facing = 0;
 
 // sets which objects to collide with
 objectsToCollide = [tilemap];
+
+
