@@ -11,7 +11,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"passive","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"boney",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"speedA","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"eName","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Skeleton Mage",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"exp_provided","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_EnemyParent","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"propertyId":{"name":"exp_provided","path":"objects/obj_EnemyParent/obj_EnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
   ],
   "parent":{
     "name":"Enemy",

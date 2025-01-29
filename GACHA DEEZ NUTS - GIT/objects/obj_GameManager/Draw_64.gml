@@ -22,12 +22,3 @@ draw_text(x+1020, y+680, string("Defense: ")+string(global.playerDefense));
 draw_text(x+1020, y+695, string("Armor: ")+string(global.playerArmor));
 draw_text(x+1020, y+710, string("Passive: ")+string(global.playerPassive));
 draw_text(x+1020, y+725, string("AP: ")+string(global.playerAP));
-
-
-
-instance_create_layer(obj_Player_Map, obj_Player_Map,"Instances", obj_Button_Characters);
-instance_create_layer(x, y,"Instances", obj_Button_Stats);
-instance_create_layer(x, y,"Instances", obj_Button_BackToGame);
-instance_create_layer(x, y,"Instances", obj_Button_BackToMainMenu);
-
-

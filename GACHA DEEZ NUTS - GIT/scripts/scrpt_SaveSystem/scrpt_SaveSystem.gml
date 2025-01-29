@@ -47,6 +47,7 @@ function scrpt_LoadGame(){
     global.playerHP_Current = _struct.hp_current;
     global.playerPassive = _struct.passive;
     global.playerDefense = _struct.defense;
+    global.playerAP = _struct.ap;
 }
     
     file_text_close(_file);

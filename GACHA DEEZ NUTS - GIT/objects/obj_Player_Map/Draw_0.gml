@@ -11,3 +11,4 @@ draw_set_colour(c_blue);
 //resets alignment to default values
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+

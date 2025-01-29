@@ -17,7 +17,7 @@ global.playerDefense = obj_Player_Battle.defense;
 global.playerHP_Max = obj_Player_Battle.hp_max;
 global.playerPassive = obj_Player_Battle.passive;  
 global.playerHP_Current = obj_Player_Battle.hp;
-global.playerAP = obj_Player_Battle.ap;
+global.playerAP = obj_Player_Battle.apoints;
 }
 
 //reset HP to max health

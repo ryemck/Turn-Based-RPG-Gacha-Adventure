@@ -27,7 +27,6 @@ if _select{
         
         case 1:
         //do stuff
-        show_message("Damage increased by 50%!");
         global.playerAttack = global.playerAttack * 1.5;
         //end turn
         scrpt_endPlayerTurn()

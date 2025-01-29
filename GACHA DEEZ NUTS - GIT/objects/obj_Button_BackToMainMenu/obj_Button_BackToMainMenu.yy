@@ -6,10 +6,12 @@
   ],
   "managed":true,
   "name":"obj_Button_BackToMainMenu",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_GameMenuButtonParent","path":"objects/obj_GameMenuButtonParent/obj_GameMenuButtonParent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_GameMenuButtonParent/obj_GameMenuButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Main Menu",},
+  ],
   "parent":{
-    "name":"GameMenu",
-    "path":"folders/Objects/Menu/GameMenu.yy",
+    "name":"PauseMenu",
+    "path":"folders/Objects/Menu/PauseMenu.yy",
   },
   "parentObjectId":{
     "name":"obj_GameMenuButtonParent",
@@ -33,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_MenuButtonBig",
-    "path":"sprites/s_MenuButtonBig/s_MenuButtonBig.yy",
+    "name":"s_MenuButtonTiny",
+    "path":"sprites/s_MenuButtonTiny/s_MenuButtonTiny.yy",
   },
   "spriteMaskId":null,
   "visible":true,

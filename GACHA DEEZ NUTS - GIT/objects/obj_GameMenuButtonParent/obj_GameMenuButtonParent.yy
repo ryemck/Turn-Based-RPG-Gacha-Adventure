@@ -8,8 +8,8 @@
   "name":"obj_GameMenuButtonParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameMenu",
-    "path":"folders/Objects/Menu/GameMenu.yy",
+    "name":"PauseMenu",
+    "path":"folders/Objects/Menu/PauseMenu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
