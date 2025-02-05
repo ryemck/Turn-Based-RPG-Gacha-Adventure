@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sp_Dungeon",
   "bboxMode":0,
-  "bbox_bottom":351,
+  "bbox_bottom":703,
   "bbox_left":0,
-  "bbox_right":367,
+  "bbox_right":735,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":400,
+  "height":800,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"16a34659-2e96-4bd0-b56c-477b01f616f5","blendMode":0,"displayName":"default","isLocked":false,"name":"16a34659-2e96-4bd0-b56c-477b01f616f5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":400,
+  "width":800,
 }

@@ -19,7 +19,7 @@ global.phase = gamephase.init;
 objectID = global.enemy1id; 
 
 //spawnenemy
-instance_create_layer(200, 70, "Instances", objectID);
+instance_create_layer(800, 120, "Instances", objectID);
 
 //spawn player
-instance_create_layer(30, 70, "Instances", obj_Player_Battle);
+instance_create_layer(30, 120, "Instances", obj_Player_Battle);

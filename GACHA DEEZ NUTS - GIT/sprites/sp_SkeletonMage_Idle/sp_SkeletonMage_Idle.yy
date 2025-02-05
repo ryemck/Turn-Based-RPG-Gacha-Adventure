@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sp_SkeletonMage_Idle",
   "bboxMode":0,
-  "bbox_bottom":31,
-  "bbox_left":7,
-  "bbox_right":24,
+  "bbox_bottom":63,
+  "bbox_left":14,
+  "bbox_right":49,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,7 +19,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b6b08b52-4527-41dd-85b4-8d7b26ffe071","blendMode":0,"displayName":"default","isLocked":false,"name":"b6b08b52-4527-41dd-85b4-8d7b26ffe071","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -98,5 +98,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":64,
 }

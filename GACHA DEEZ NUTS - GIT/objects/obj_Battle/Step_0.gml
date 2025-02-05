@@ -1,6 +1,7 @@
 switch(global.phase){
     case gamephase.init:
-        startingattack = obj_Player_Battle.attack;
+        //set variable to save attack at start of battle
+        startingattack = global.playerAttack;
         if(global.playerSpeed >= objectID.speedA){
             global.phase = gamephase.playerTurn;
         }else if (objectID.speedA > global.playerSpeed){
@@ -34,7 +35,6 @@ switch(global.phase){
         global.phase = gamephase.win;
     }else{
         
-    //go back to player's turn
     global.phase = gamephase.playerTurn;
     }
     
@@ -69,7 +69,7 @@ switch(global.phase){
             show_message("Level up! You gained 1 AP & 2 max health! :D");
             
         }
-    //clean up
+    //clean up, set player attack to starting amount and go back to main screen
     global.playerAttack = startingattack;
         room_goto(rm_Main);
     

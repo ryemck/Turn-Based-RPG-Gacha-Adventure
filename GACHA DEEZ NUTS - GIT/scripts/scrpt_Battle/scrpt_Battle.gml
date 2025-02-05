@@ -8,19 +8,19 @@ function scrpt_DoDamage(){
     var enemyPassive = objectID.passive;
     //reduce damage by enemy armor
     if(enemyArmor > playerDamage){
-    var reduceDamage = playerDamage / 2;
+    reduceDamage = playerDamage * 0.4;
     }else if (enemyArmor <= playerDamage){
-        var reduceDamage = playerDamage * 0.8;
+        reduceDamage = playerDamage * 0.2;
     }else{
         reduceDamage = 0;
     }
     // calculate playerdamage minus the reduced damage for total damage
-    var damageDealt = playerDamage - reduceDamage;
+    damageDealt = playerDamage - reduceDamage;
     //apply passives
-    if(attacktype == "ranged"){
+    if(global.attacktype == "ranged"){
             damageDealt = damageDealt * 1.5;
         }
-    if(attacktype == "ranged" && enemyPassive == "boney"){
+    if(global.attacktype == "ranged" && enemyPassive == "boney"){
         show_message("Boney! - Skeleton's passive reduces ranged damage by 50%");
         damageDealt = damageDealt / 2;
     }
@@ -77,15 +77,15 @@ function scrpt_calcDamage(){
         playerPassive = global.playerPassive;
     
     if(playerArmor > npcDamage){
-        var reduceDamage = npcDamage / 2;
+        reduceDamage = npcDamage / 2;
         }else if (playerArmor <= npcDamage){
-            var reduceDamage = npcDamage * 0.8;
+            reduceDamage = npcDamage * 0.8;
         }else{
             reduceDamage = 0;
         }
     
     //reduce damage by player armor
-    var reduceDamage = npcDamage / playerArmor;
+    reduceDamage = npcDamage / playerArmor;
     // calculate npc damage minus the reduced damage for total damage
     damageDealt = npcDamage - reduceDamage;
     
@@ -104,8 +104,7 @@ function scrpt_SkeletonMageSkills(){
         
         case npcAttack.skill1 :
             scrpt_calcDamage();
-            
-            show_message(string(npcName) + " attacks you for " + string(damageDealt) + " damage!");
+            instance_create_layer(x, y, "Instances", obj_DisplayEnemyDamage);
             global.playerHP_Current = global.playerHP_Current - damageDealt;   
         break;
         case npcAttack.skill2 :

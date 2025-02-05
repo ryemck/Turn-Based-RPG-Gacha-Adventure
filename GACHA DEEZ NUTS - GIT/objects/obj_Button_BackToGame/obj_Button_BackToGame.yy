@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_MenuButtonTiny",
-    "path":"sprites/s_MenuButtonTiny/s_MenuButtonTiny.yy",
+    "name":"s_MenuButtonSmall",
+    "path":"sprites/s_MenuButtonSmall/s_MenuButtonSmall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

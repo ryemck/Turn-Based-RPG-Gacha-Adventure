@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"s_SkillDescBox",
   "bboxMode":0,
-  "bbox_bottom":49,
+  "bbox_bottom":99,
   "bbox_left":0,
-  "bbox_right":150,
+  "bbox_right":301,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":50,
+  "height":100,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7985bac8-4e3e-44d7-9b5a-8071c63a060e","blendMode":0,"displayName":"default","isLocked":false,"name":"7985bac8-4e3e-44d7-9b5a-8071c63a060e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":151,
+  "width":302,
 }

@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sp_OrcWarrior_Idle",
   "bboxMode":0,
-  "bbox_bottom":31,
-  "bbox_left":7,
-  "bbox_right":27,
+  "bbox_bottom":63,
+  "bbox_left":14,
+  "bbox_right":55,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,7 +19,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"fba47cfe-dc83-491d-b6f7-61311910af4c","blendMode":0,"displayName":"default","isLocked":false,"name":"fba47cfe-dc83-491d-b6f7-61311910af4c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -117,5 +117,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":64,
 }

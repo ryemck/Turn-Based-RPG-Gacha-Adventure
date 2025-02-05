@@ -1,4 +1,5 @@
 draw_self();
+draw_set_alpha(1.0);
 // selects the font
 draw_set_font(fnt_Main);
 // sets font alignment

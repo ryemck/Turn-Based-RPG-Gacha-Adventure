@@ -1,3 +1,4 @@
+
 //re-activates all the instances that were hidden when paused
 var i;
 for(i = 0; i < ds_list_size(global.pauseInstances); i++)

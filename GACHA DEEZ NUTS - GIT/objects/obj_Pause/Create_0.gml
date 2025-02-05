@@ -1,3 +1,4 @@
+
 //create list to contain all active instances
 global.pauseInstances = ds_list_create();
 
@@ -15,7 +16,7 @@ vy = camera_get_view_y(view_camera[0]);
 
 //adds buttons
 
-instance_create_depth(vx +15, vy + 30, -250, obj_Button_BackToGame);
-instance_create_depth(vx +15, vy + 75, -250, obj_Button_Save);
-instance_create_depth(vx +15, vy + 120, -250, obj_Button_BackToMainMenu);
-instance_create_depth(vx +135, vy + 23, -250, obj_PauseMenu);
+instance_create_depth(vx +15, vy + 50, -250, obj_Button_BackToGame);
+instance_create_depth(vx +15, vy + 135, -250, obj_Button_Save);
+instance_create_depth(vx +15, vy + 220, -250, obj_Button_BackToMainMenu);
+instance_create_depth(vx +255, vy + 50, -250, obj_PauseMenu);

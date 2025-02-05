@@ -6,7 +6,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 
 //draws the button text
-draw_text(x+25, y+15, button_text);
+draw_text(x+50, y+35, button_text);
 draw_set_colour(#B59410);
 
 //resets alignment to default values

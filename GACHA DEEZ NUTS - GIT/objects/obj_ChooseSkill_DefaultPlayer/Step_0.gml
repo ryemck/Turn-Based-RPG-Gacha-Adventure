@@ -19,8 +19,8 @@ if _move != 0{
 if _select{
     switch(index){
         case 0: 
-        attacktype = "melee";
-        scrpt_DoDamage();
+        global.attacktype = "melee";
+        instance_create_layer(x, y, "Instances", obj_DisplayPlayerDamage);
         //end turn
         scrpt_endPlayerTurn()
         break;
@@ -34,9 +34,8 @@ if _select{
         
         case 2: 
         //do stuff
-        attacktype = "ranged";
-        instance_create_layer(45, 80, "instances", obj_Attack1);
-        scrpt_DoDamage();
+        global.attacktype = "ranged";
+        instance_create_layer(x, y, "Instances", obj_DisplayEnemyDamage);
         //end turn
         scrpt_endPlayerTurn()
         break;

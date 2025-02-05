@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sp_IronMan_Idle",
   "bboxMode":0,
-  "bbox_bottom":56,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":36,
+  "bbox_right":41,
   "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":57,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"790b67e0-d377-4a0a-895f-dadab8349c24","blendMode":0,"displayName":"default","isLocked":false,"name":"790b67e0-d377-4a0a-895f-dadab8349c24","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":37,
+  "width":42,
 }
